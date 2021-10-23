@@ -35,4 +35,8 @@
         margin:0 auto;
         gap: 32px;
     }
+
+    .place:last-of-type {
+        margin-bottom: 66px;
+    }
 }
