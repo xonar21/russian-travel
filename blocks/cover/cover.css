@@ -1,7 +1,8 @@
 .cover {
-    width: 1184px;
+    max-width: 1184px;
     position: relative;
     margin: 0 auto 92px;
     z-index: 0;
+    text-align: center;
 }
 
