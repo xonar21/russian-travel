@@ -1,0 +1,9 @@
+.lead__kalegin-michail {
+    width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__kalegin-michail {
+        width: 100%;
+    }
+}
