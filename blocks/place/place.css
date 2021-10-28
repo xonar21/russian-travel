@@ -26,13 +26,17 @@
         max-width: 720px;
         margin-bottom: 73px;
     }
+
+    .place:last-of-type {
+        margin-bottom: 90px;
+    }
 }
 
 @media screen and (max-width: 767px) {
     .place {
         grid-template-columns:  minmax(min-content, max-content);
         max-width: 320px;
-        margin:0 auto;
+        margin:0 auto 50px;
         gap: 32px;
     }
 

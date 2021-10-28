@@ -4,10 +4,21 @@
     line-height: 163%;
 }
 
+.place__paragraph:last-of-type {
+    margin-bottom: 0;
+}
+
 @media screen and (max-width: 1023px) {
     .place__paragraph {
-
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+
+       width: 288px;
+       margin: 0 auto 26px;
 
     }
 }
