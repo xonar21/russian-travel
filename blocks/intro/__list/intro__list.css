@@ -1,4 +1,6 @@
 .intro__list {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     margin-top: 33px;
     font-weight: bold;
@@ -6,5 +8,5 @@
     line-height: 150%;
     list-style: none;
     padding: 0;
-    max-width: 500px;
+    width: 100%;
 }
